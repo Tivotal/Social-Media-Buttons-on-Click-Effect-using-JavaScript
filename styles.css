@@ -1,0 +1,68 @@
+/* Created by Tivotal */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #dde1e7;
+}
+
+.wrapper .icons {
+  display: flex;
+}
+
+.wrapper .icons li {
+  position: relative;
+  list-style: none;
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+  background: #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.wrapper .icons li a {
+  font-size: 27px;
+  color: #b6bbc5;
+  line-height: 70px;
+}
+
+.icons li.shadow {
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.icons li.shadow a {
+  font-size: 25px;
+}
+
+li:nth-child(1).fillColor a {
+  color: #4267b2;
+}
+
+li:nth-child(2).fillColor a {
+  color: #1da1f2;
+}
+
+li:nth-child(3).fillColor a {
+  color: #e1306c;
+}
+
+li:nth-child(4).fillColor a {
+  color: #2867b2;
+}
+
+li:nth-child(5).fillColor a {
+  color: #333;
+}
